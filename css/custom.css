@@ -1,8 +1,26 @@
 /*// CUSTOM FONTS //*/
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 /*// NAVBAR //*/
 .navbar-brand{
-	font-family: 'Lobster';
+	font-family: 'Permanent Marker';
 	background-color: white;
-	font-size: 40px;
+	font-size: 100px;
+	line-height: 10px;
+	margin: 10px;
+	color: black;
+}
+.navbar-header.right{
+	float: right;
+	border: 1px solid black;
+	padding: 10px;
+	margin: .5em -5em;
+
+}
+.navbar-header.right a {
+	padding: 5px;
+}
+/*////// SOCIAL BAR //////*/
+.social-bar{
+	float: right;
+	padding: 30px;
 }
